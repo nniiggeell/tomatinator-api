@@ -1,1 +1,1 @@
-web: gunicorn nigelAPI.py
+web: gunicorn nigelAPI:application
