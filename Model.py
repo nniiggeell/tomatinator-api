@@ -46,7 +46,7 @@ def input(text):
     
     df["Analysis"] = df['Polarity'].apply(getAnalysis)
     
-    return (str('The sentiment of your tweet is: ' + df.at[0, 'Analysis']))
+    return (str(df.at[0, 'Analysis']))
 
 #Clean the text
 def cleanText(text):
